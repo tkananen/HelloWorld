@@ -1,16 +1,18 @@
 
 #include <iostream>
 #include "helloWorld.h"
+#include <string>
+
 using namespace std;
 
 helloWorld::helloWorld()
 {}
 void helloWorld :: myFunct(){
 
-	char* myStr = "Hello World";
+	string myStr = "Hello World";
 
 
 
-	std::cout<<myStr<<endl;
+	std::cout<<myStr<<std::endl;
 }
 
